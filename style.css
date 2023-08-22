@@ -1,0 +1,176 @@
+/*Navigation*/
+
+
+
+
+nav {
+background-color: white;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+position: relative;
+bottom: -10px;
+}
+
+ul li {
+display: inline-block;
+padding: 10px;
+margin: 10px;
+position: relative;
+top: 10px;
+left: 50px;
+}
+
+body {
+background-color: whitesmoke;
+}
+
+ul li a {
+font-size: 20px;
+color: black;
+text-decoration: none;
+font-family:monospace;
+font-weight: bold;
+}
+
+ul li a:hover {
+color: white;
+background-color: black;
+}
+
+#UFC_logo {
+width: 200px;
+position: relative;
+left: 600px;
+top: -40px;
+}
+
+#UFC_logo:hover {
+background-color: gray;
+}
+
+
+
+
+
+/*Details*/
+
+.current {
+text-align: center;
+position: relative;
+top: -635px;
+right: 1px;
+font-family:'Impact';
+font-weight: 100;
+font-size: 15px;
+}
+
+.fullname {
+text-align: center;
+position: relative;
+top: -660px;
+right: 1px;
+font-family:'Impact';
+font-weight: 100;
+font-size: 50px;
+}
+
+.record{
+text-align: center;
+position: relative;
+top: -700px;
+right: 1px;
+font-family:'Impact';
+font-weight: 100;
+font-size: 50px;
+}
+
+.w-l-d {
+text-align: center;
+position: relative;
+top: -750px;
+right: -5px;
+font-family:'Impact';
+font-weight: 100;
+font-size: 15px;
+letter-spacing: 10px;
+}
+
+.UFC254 {
+text-align: center;
+position: relative;
+top: -735px;
+right: -630px;
+font-family:'Impact';
+font-weight: 100;
+font-size: 15px;
+border: 1px solid black;
+width: fit-content;
+background-color: gray;
+}
+    
+.lastfight {
+border: 0 solid;
+width: 200px;
+position: relative;
+top: -750px;
+right: -630px;
+}
+
+.winicon {
+text-align: center;
+position: relative;
+top: -789px;
+right: -630px;
+font-family:'Impact';
+font-weight: 100;
+font-size: 15px;
+border: 1px solid red;
+width: fit-content;
+background-color: red;  
+}
+
+.button {
+position: relative;
+top: -790px;
+right: -650px;
+}
+
+/*footer*/
+
+#footer {
+position: relative;
+border: 2px solid black;
+top: -600px;
+background-color: aquamarine;
+width: 250px;
+
+}
+
+.contact {
+position: relative;
+top: -20px;
+font-family:'Trebuchet MS';
+text-decoration: underline;
+}
+
+.email {
+position: relative;
+top: -20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;  
+border-bottom: 3px dotted black;
+display: inline;
+}
+
+.phone{
+position: relative;
+top: -20px;
+font-family: monospace;
+font-style: italic;
+border-bottom: 3px dotted black;
+display: inline
+}
